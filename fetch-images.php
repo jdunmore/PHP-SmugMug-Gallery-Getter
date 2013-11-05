@@ -1,6 +1,6 @@
 <?php
 
-$contents = file_get_contents('http://dunmore.smugmug.com/hack/feed.mg?Type=gallery&Data=21296463_N53dSK&format=rss200&ImageCount=500');
+$contents = file_get_contents('URL');
 $contents = str_replace('media:group', 'mediagroup', $contents);
 $contents = str_replace('media:content', 'mediacontent', $contents);
 
